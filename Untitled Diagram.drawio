@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-07T02:37:19.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="pxuyfYNO2ubymTyNIUm0" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-07T02:42:20.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="6F9FkFRorD3CtF75reUL" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,8 +69,35 @@
         <mxCell id="S14Ars9MVM3jiIzqdodp-28" value="首次发送数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="320" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S14Ars9MVM3jiIzqdodp-38" target="S14Ars9MVM3jiIzqdodp-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="S14Ars9MVM3jiIzqdodp-38" value="串口中断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S14Ars9MVM3jiIzqdodp-39" target="S14Ars9MVM3jiIzqdodp-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-39" value="接收中断" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="405" y="90" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S14Ars9MVM3jiIzqdodp-41" target="S14Ars9MVM3jiIzqdodp-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-41" value="断开状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="405" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S14Ars9MVM3jiIzqdodp-43" target="S14Ars9MVM3jiIzqdodp-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-43" value="应答信号0x70" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="386.25" y="230" width="127.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-45" value="设置为发送状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S14Ars9MVM3jiIzqdodp-48" value="中断结束，返回主程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="420" width="290" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
