@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:01:16.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="Om_q6aPvSGlILaEZbkZb" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:01:39.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="UwyRtIVHDi2BBrzwzfz8" version="14.4.3" type="github">
   <diagram id="AVDE2UzuMkBJ7pr0MOgo" name="第 1 页">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -48,22 +48,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-8" value="发送数据长度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="140" width="80" height="30" as="geometry" />
+          <mxGeometry x="545" y="205" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-10" target="MQjcBsZfcyUKjAySOVFH-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-10" value="发送数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="200" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MQjcBsZfcyUKjAySOVFH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-12" target="MQjcBsZfcyUKjAySOVFH-13">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="545" y="265" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-12" value="发送校验和" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="260" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MQjcBsZfcyUKjAySOVFH-13" value="标记为已发送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="320" width="80" height="30" as="geometry" />
+          <mxGeometry x="545" y="325" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
