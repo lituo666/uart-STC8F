@@ -1,31 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T06:51:11.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="oSwCCHFTpLqzTCe-ibFl" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:01:16.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="Om_q6aPvSGlILaEZbkZb" version="14.4.3" type="github">
   <diagram id="AVDE2UzuMkBJ7pr0MOgo" name="第 1 页">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MQjcBsZfcyUKjAySOVFH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-1" target="MQjcBsZfcyUKjAySOVFH-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-14" value="发送询问&lt;br&gt;接收到应答信号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="MQjcBsZfcyUKjAySOVFH-3">
+          <mxGeometry x="-0.2367" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-1" value="断开状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="260" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-2" target="MQjcBsZfcyUKjAySOVFH-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-15" value="发送后&lt;br&gt;接收“接收完成信号”" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="MQjcBsZfcyUKjAySOVFH-5">
+          <mxGeometry x="-0.2085" relative="1" as="geometry">
+            <mxPoint y="6.55" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-2" value="发送状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="260" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQjcBsZfcyUKjAySOVFH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-4" target="MQjcBsZfcyUKjAySOVFH-1">
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-4" target="MQjcBsZfcyUKjAySOVFH-1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="414" />
-              <mxPoint x="160" y="150" />
+              <mxPoint x="320" y="580" />
+              <mxPoint x="170" y="580" />
+              <mxPoint x="170" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-19" value="接收完成&lt;br&gt;发送“接收完成信号”" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="MQjcBsZfcyUKjAySOVFH-18">
+          <mxGeometry x="-0.9407" y="2" relative="1" as="geometry">
+            <mxPoint x="-2.01" y="35.17" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-4" value="接收状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="260" y="384" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-8" target="MQjcBsZfcyUKjAySOVFH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-8" value="发送数据长度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-10" target="MQjcBsZfcyUKjAySOVFH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-10" value="发送数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-12" target="MQjcBsZfcyUKjAySOVFH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-12" value="发送校验和" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-13" value="标记为已发送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
