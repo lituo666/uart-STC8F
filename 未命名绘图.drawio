@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:17:50.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="i2WirbKdtAtpRYCR--s0" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:18:45.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="dYZfxchafOR4re-ZBz0A" version="14.4.3" type="github">
   <diagram id="AVDE2UzuMkBJ7pr0MOgo" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MQjcBsZfcyUKjAySOVFH-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="500" y="500" width="120" height="207.5" as="geometry" />
+          <mxGeometry x="600" y="500" width="120" height="207.5" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-1" target="MQjcBsZfcyUKjAySOVFH-2">
           <mxGeometry relative="1" as="geometry" />
@@ -29,8 +29,8 @@
         <mxCell id="MQjcBsZfcyUKjAySOVFH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-2" target="MQjcBsZfcyUKjAySOVFH-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="410" />
-              <mxPoint x="460" y="210" />
+              <mxPoint x="540" y="410" />
+              <mxPoint x="540" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -55,8 +55,8 @@
         <mxCell id="MQjcBsZfcyUKjAySOVFH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-4" target="MQjcBsZfcyUKjAySOVFH-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="580" />
-              <mxPoint x="460" y="210" />
+              <mxPoint x="540" y="580" />
+              <mxPoint x="540" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -67,34 +67,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-8" value="发送数据长度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="290" width="80" height="30" as="geometry" />
+          <mxGeometry x="620" y="290" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-10" target="MQjcBsZfcyUKjAySOVFH-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-10" value="发送数据[n]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="350" width="80" height="30" as="geometry" />
+          <mxGeometry x="620" y="350" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-12" value="发送校验和" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="410" width="80" height="30" as="geometry" />
+          <mxGeometry x="620" y="410" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-21" target="MQjcBsZfcyUKjAySOVFH-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-21" value="接收数据长度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="533.75" width="80" height="30" as="geometry" />
+          <mxGeometry x="620" y="533.75" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQjcBsZfcyUKjAySOVFH-23" target="MQjcBsZfcyUKjAySOVFH-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-23" value="接收数据[n]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="593.75" width="80" height="30" as="geometry" />
+          <mxGeometry x="620" y="593.75" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-24" value="接收校验和" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="653.75" width="80" height="30" as="geometry" />
+          <mxGeometry x="620" y="653.75" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-26" value="中断处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="500" y="504" width="110" height="20" as="geometry" />
+          <mxGeometry x="600" y="504" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-27" value="主机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="270" y="20" width="60" height="30" as="geometry" />
@@ -104,6 +104,9 @@
         </mxCell>
         <mxCell id="MQjcBsZfcyUKjAySOVFH-28" value="初始化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="240" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQjcBsZfcyUKjAySOVFH-32" value="接收完成信号&lt;br&gt;超时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
